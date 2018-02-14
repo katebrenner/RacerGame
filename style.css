@@ -1,0 +1,86 @@
+body{
+  background: url("https://ak7.picdn.net/shutterstock/videos/16765657/thumb/1.jpg?i10c=img.resize(height:160)");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8ec74d;
+  font-family: 'Gloria Hallelujah', cursive;
+  position: relative;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+img{
+  height: 200px;
+}
+
+button {
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+}
+
+form {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+form > h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#diner{
+  position: absolute;
+  top: 300px;
+  right: 5px;
+}
+
+#grandma {
+  position: absolute;
+  left: 0;
+  top: 500px;
+}
+
+#grandpa {
+  position: absolute;
+  left: 0;
+  top: 290px;
+}
+
+#grandmaGame {
+  position: absolute;
+  left: 0;
+  top: 500px;
+}
+
+#grandpaGame {
+  position: absolute;
+  left: 0;
+  top: 290px;
+}
+
+#h1 {
+  font-size: 75px;
+  text-align:center;
+}
+
+.tryAgain {
+  display: none;
+}
